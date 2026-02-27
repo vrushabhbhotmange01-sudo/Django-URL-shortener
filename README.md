@@ -34,9 +34,9 @@ A scalable backend service that converts long URLs into short, shareable links a
 ## **API Endpoints**
 # URL Routes
 Method	Endpoint	Description
-POST	/main/create/	Create a new short URL
-GET	/main/getdata/	Fetch all stored URLs
-GET	/main/call/<short_url>	Redirect to original URL
+1. POST	/main/create/	Create a new short URL
+2. GET	/main/getdata/	Fetch all stored URLs
+3. GET	/main/call/<short_url>	Redirect to original URL
 Example Request (Create Short URL)
 {
   "original_url": "https://www.google.com/search?q=django"
