@@ -19,7 +19,7 @@ A scalable backend service that converts long URLs into short, shareable links a
 
 ## **Installation**
 1.	Clone the repository:
-2.	git clone https://github.com/your-username/url_shortener_backend.git
+2.	git clone Repo
 3.	Create virtual environment:
 4.	python -m venv venv
 5.	source venv/bin/activate  # Windows: venv\Scripts\activate
